@@ -1,0 +1,23 @@
+.sign{
+    margin-left: 10%;
+   
+    width:45%;
+    .button{
+        border:none;
+        padding:10px 10px;
+        border:1px solid chocolate;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        background-color: black;
+        font-weight:500;
+        height: 50px;
+        width: 50%;
+        border-radius: 5px;
+        color: white;
+         &:hover{
+            background-color:chocolate;
+            transition: background-color 0.2s;
+        }
+    }
+
+}
